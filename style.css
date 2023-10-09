@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    border-color: rgb(246,246,238);
+}
+
+.flex{
+    display: flex;
+    padding: 3rem;
+    height: 100vh;
+}
+
+.column{
+    width: 33.333333vw;
+}
+
+.img-book{
+    width: 80%;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
+h1{
+    font-size: 15rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.b{
+    display: inline-block;
+    padding: .8rem;
+    border-radius: 50%;
+    margin-bottom: 4rem;
+    text-decoration: none;
+}
+
+.b-de{
+    border: .1rem solid black;
+}
+
+.b-en{
+    background-color: black;
+    color:rgb(246,246,238);
+    margin: 0 0 0 1.3rem;
+    border: .1rem solid transparent;
+}
+
+
+.c-1 p{
+    font-size: 5rem;
+}
+
+
+.btn{
+    display: inline-block;
+    color: rgb(246,246,238);
+    padding: 2rem;
+    background-color: black;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color:rgba(3, 197, 12, 0.73);
+    color: black;
+}
+
+.btn:after{
+    font-family: fontawesome;
+    content: "\f061";
+    color: rgb(246,246,238);
+    margin-left: .9rem;
+}
+
+.c-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.c-2 p{
+    text-align: center;
+}
+
+.discover{
+    display: inline-block;
+    margin-top: 13rem;
+    text-decoration: none;
+    color: black;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-right: 2.25rem;
+}
+
+
+.discover::before{
+    font-family: fontawesome;
+    content: "\f063";
+    color: black;
+    margin-right: .9rem;
+}
+
+
+.discover:hover{
+ border-bottom: .2rem solid black;
+}
+
